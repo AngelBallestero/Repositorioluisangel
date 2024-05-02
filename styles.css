@@ -1,5 +1,5 @@
 /* Estilos para el formulario */
-.formulario {
+.form {
     width: 300px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -9,8 +9,8 @@
 }
 
 /* Estilos para los campos de entrada */
-.formulario input[type="text"],
-.formulario input[type="password"] {
+.form input[type="text"],
+.form input[type="password"] {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
@@ -20,7 +20,7 @@
 }
 
 /* Estilos para el botón */
-.formulario input[type="submit"] {
+.form input[type="submit"] {
     width: 100%;
     padding: 10px;
     margin-top: 10px;

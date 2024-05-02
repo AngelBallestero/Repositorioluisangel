@@ -10,7 +10,7 @@
     <center>
         <h1 class="titulo">INICIO</h1>
         <h2 class="titulo">INICIO SESION</h2>
-        <form action="Iniciar_Session.php" method="POST">
+        <form action="Iniciar_Session.php" method="POST" class="form">
             <input type="text" name="username" placeholder="username" required>
             <br/>
             <input type="password" name="passwords" placeholder="passwords" required>
