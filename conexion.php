@@ -1,6 +1,6 @@
 <?php
 # Conexión a la base de datos utilizando PDO
-$dsn = 'mysql:host=localhost;dbname=db_contacto';
+$dsn = 'mysql:host=localhost;dbname=db_contactos';
 $usuario = 'root';
 $contrasenia = '';
 
