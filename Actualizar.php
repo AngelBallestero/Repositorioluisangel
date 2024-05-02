@@ -12,7 +12,7 @@
     
     <h2>Ingrese Los Dato que Va Actualizar</h2>
   
-    <form action="Actualizar_Usuario.php" method="POST">
+    <form action="Actualizar_Contactos.php" method="POST">
         <input type="text" name="nombre" placeholder="nombre" required>
         <br/>
         <input type="text" name="telefono" placeholder="telefono" required>
