@@ -36,10 +36,10 @@ $conexion = null;
         <?php endforeach; ?>
     </table>
     <br/>
-
-  
-
     <a href="index.php">Atras</a> 
+  
+    
+   
        
 
 
