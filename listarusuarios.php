@@ -16,12 +16,15 @@ $conexion = null;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilosusuarios.css">
     <title>LISTA de usuarios</title>
 </head>
+<center>
 <body>
    
     <h1>usuario Registrados</h1>
-    <table>
+    <div class="container">
+     <table>
         <tr>
             <th>nombre</th>
             <th>username</th>
@@ -34,14 +37,12 @@ $conexion = null;
             <td><?php echo $usuario['passwords']; ?></td>
         </tr>
         <?php endforeach; ?>
-    </table>
-    <br/>
+     </table>
+    </div>
+   
     <a href="index.php">Atras</a> 
   
-    
-   
-       
-
 
 </body>
+<center>
 </html>
