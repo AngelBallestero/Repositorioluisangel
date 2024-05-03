@@ -8,17 +8,6 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1{
-    color: #007bff;
-    width: 100;
-    font-family: Arial Black;    
-    font-style: oblique;
-}
-h2{
-    color: #3B5998;
-    font-style: italic;
-}
-
 
 form input[type="text"],
 form input[type="text"]
