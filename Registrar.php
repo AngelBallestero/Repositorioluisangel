@@ -17,7 +17,7 @@
         <br/>
         <input type="text" name="username" placeholder="username" required>
         <br/>
-        <input type="text" name="passwords" placeholder="passwords" required>
+        <input type="password" name="passwords" placeholder="passwords" required>
         <br/>
         <input type="submit" value="Guardar usuarios"></input>
         

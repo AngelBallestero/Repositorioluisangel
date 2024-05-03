@@ -22,7 +22,7 @@ $conexion = null;
 <center>
 <body>
    
-    <h1>usuario Registrados</h1>
+    <h1>Usuario Registrados</h1>
     <div class="container">
      <table>
         <tr>
