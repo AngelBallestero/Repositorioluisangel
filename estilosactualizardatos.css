@@ -14,10 +14,11 @@ h1{
 }
 
 h2{
-    color:goldenrod;
+    color:rgb(32, 144, 218);
 }
 
 form input[type="text"],
+form input[type="text"]
 form input[type="text"]
 form input[type="passwords"] {
     width: 100%;
@@ -29,12 +30,12 @@ form input[type="passwords"] {
 }
 
 form input[type="submit"] {
-    width: 70%;
+    width: 50%;
     padding: 10px;
-    margin-top: 15px;
+    margin-top: 30px;
     border: none;
     border-radius: 5px;
-    height: 40%;
+    height: 30%;
     background-color: #007bff;
     color: #fff;
     cursor: pointer;

@@ -16,26 +16,37 @@ $conexion = null;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sti.css">
     <title>LISTA de Contactos</title>
 </head>
+<center>
 <body>
-    <!-- Lista de contactos -->
+
     <h1>Contactos Registrados</h1>
-    <table>
+    <div class="container" >
+     <table center>
+
+    
         <tr>
+        
             <th>Nombre</th>
             <th>telefono</th>
             <th>Correo</th>
+        
         </tr>
-        <?php foreach ($contactos as $contacto): ?>
+        
+        <?php foreach ($contactos as $contacto): ?>  
         <tr>
             <td><?php echo $contacto['nombre']; ?></td>
             <td><?php echo $contacto['telefono']; ?></td>
             <td><?php echo $contacto['correo']; ?></td>
         </tr>
+        
         <?php endforeach; ?>
-    </table>
-
+    
+     </table>
+    </div>
+    <center>
     <br/>
 
     <!DOCTYPE html>

@@ -26,6 +26,7 @@ form input[type="password"] {
     width: 100%;
     padding: 10px;
     margin: 5px 0;
+    font-style: oblique;
     border: 1px solid #cdd0d4;
     border-radius: 3px;
     box-sizing: border-box; 
@@ -34,9 +35,9 @@ form input[type="password"] {
 form input[type="submit"] {
     width: 100%;
     padding: 10px;
-    margin-top: 10px;
+    margin-top: 45px;
     border: none;
-    border-radius: 3px;
+    border-radius: 8px;
     height: 50%;
     background-color: #007bff;
     color: #fff;
