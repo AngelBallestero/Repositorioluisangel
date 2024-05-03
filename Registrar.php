@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
     <title></title>
 </head>
 <body>
@@ -10,7 +11,7 @@
     
     <!-- Formulario para agregar un nuevo contacto -->
     <h2>Agregar usuarios</h2>
-    <form action="Crearusuarios.php" method="POST">
+    <form1 action="Crearusuarios.php" method="POST" class="form">
         <input type="text" name="nombre" placeholder="nombre" required>
         <br/>
         <input type="text" name="username" placeholder="username" required>
@@ -19,7 +20,7 @@
         <br/>
         <input type="submit" value="Guardar usuarios"></input>
         
-    </form>
+    </form1>
     <br/>
     <!DOCTYPE html>
     <html lang="es">

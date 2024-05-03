@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LISTA DE INICIO DE SESION</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Enlaza tu archivo CSS -->
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <center>
@@ -15,7 +15,7 @@
             <br/>
             <input type="password" name="passwords" placeholder="passwords" required>
             <br/>
-            <input type="submit" name="btnIniciar" value="iniciar sesion"></input>
+            <input type="submit" name="btnIniciar" value="Iniciar sesion"></input>
         </form>
     </center>
 </body>
