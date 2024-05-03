@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="styles1.css">
     <title></title>
 </head>
+<center>
 <body>
     <h1>Registrar Usuarios</h1>
     
     <!-- Formulario para agregar un nuevo contacto -->
     <h2>Agregar usuarios</h2>
-    <form1 action="Crearusuarios.php" method="POST" class="form">
+    <form action="Crearusuarios.php" method="POST" class="form">
         <input type="text" name="nombre" placeholder="nombre" required>
         <br/>
         <input type="text" name="username" placeholder="username" required>
@@ -20,7 +21,8 @@
         <br/>
         <input type="submit" value="Guardar usuarios"></input>
         
-    </form1>
+    </form>
+<center>
     <br/>
     <!DOCTYPE html>
     <html lang="es">
